@@ -1,3 +1,15 @@
+:root{
+  --color-background: #212121;
+  --steel-gray: #595959;
+  --dark: #1c2222;
+  --light: #eeeeee;
+  --mint: #93c47d;
+  --gray: #7d8280;
+  --success: #5ba25e;
+  --warning: #d89126;
+  --danger: #f44336;
+  --font-header: 
+}
 /*****************************************************/
 /* This semester we will be using my variation of    */
 /* Josh Comeau's CSS Reset instead of normalize      */
@@ -84,18 +96,7 @@ img[src$="svg"] {
 }
 
 /************ add your CSS here *****************/
-:root{
-  --color-background: #212121;
-  --steel-gray: #595959;
-  --dark: #1c2222;
-  --light: #eeeeee;
-  --mint: #93c47d;
-  --gray: #7d8280;
-  --success: #5ba25e;
-  --warning: #d89126;
-  --danger: #f44336;
-  --font-header: 
-}
+
 p{
   font-family: 'Lato', sans-serif;
   color: var(--light);
@@ -113,8 +114,9 @@ h1{
   font-size: 7rem;
 }
 
-a, a:hover{
+a, a[href]:hover{
   color: var(--mint);
+  text-decoration: none;
 }
 a:visited{
   color: var(--warning);
@@ -130,6 +132,8 @@ a:visited{
 }
 body{
   background-color: var(--steel-gray);
+  font-family: 'Lato', sans-serif;
+  color: var(--light);
 }
 header{
   background-color: var(--color-background);
