@@ -118,20 +118,23 @@ h1{
 }
 a{
   color: var(--mint);
+  text-decoration: none;
 }
 a[href]:hover{
   color: var(--mint);
   text-decoration: none;
+  filter: brightness(1.7);
+  transition: 300ms ease;
 }
 a:visited{
-  color: var(--warning);
+  color: var(--gray);
 }
 .button{
   display: inline-block;
 
 }
 .button:hover{
-  filter: brightness(1.9);
+  filter: brightness(1.7);
   transition: 300ms ease;
   cursor: pointer;
 }
