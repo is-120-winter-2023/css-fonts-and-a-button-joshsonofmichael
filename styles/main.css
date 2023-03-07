@@ -7,8 +7,7 @@
   --gray: #7d8280;
   --success: #5ba25e;
   --warning: #d89126;
-  --danger: #f44336;
-  --font-header: 
+  --danger: #f44336; 
 }
 /*****************************************************/
 /* This semester we will be using my variation of    */
@@ -114,11 +113,11 @@ h1{
   font-size: 7rem;
 }
 
-a, a[href]:hover{
+a[href], a[href]:hover{
   color: var(--mint);
   text-decoration: none;
 }
-a:visited{
+a[href]:visited{
   color: var(--warning);
 }
 .button{
