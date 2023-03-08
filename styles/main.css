@@ -83,7 +83,7 @@ img[src$="svg"] {
 }
 
 /************ add your CSS here *****************/
-:root{
+:root {
   --color-background: #212121;
   --steel-gray: #595959;
   --dark: #1c2222;
@@ -92,73 +92,75 @@ img[src$="svg"] {
   --gray: #7d8280;
   --success: #5ba25e;
   --warning: #d89126;
-  --danger: #f44336; 
+  --danger: #f44336;
 }
 * {
   box-sizing: border-box;
-  
 }
-body{
+body {
   background-color: var(--steel-gray);
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: var(--light);
   box-sizing: border-box;
 }
-p{
-  font-family: 'Lato', sans-serif;
+p {
+  font-family: "Lato", sans-serif;
   color: var(--light);
   font-weight: 400;
 }
-h1, h2, h3, h4{
-  font-family: 'Roboto Condensed', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto Condensed", sans-serif;
   color: var(--light);
   font-weight: 700;
   margin-bottom: 1.5em;
   margin-top: 1.5em;
 }
 
-h1{
+h1 {
   font-size: 7rem;
 }
-a{
+a {
   color: var(--mint);
   text-decoration: none;
 }
-a[href]:hover{
+a[href]:hover {
   color: var(--mint);
   text-decoration: none;
   filter: brightness(1.7);
   transition: 300ms ease;
 }
-a:visited{
+a:visited {
   color: var(--gray);
 }
-.button{
+.button {
   display: inline-block;
-
 }
-.button:hover{
+.button:hover {
   filter: brightness(1.7);
   transition: 300ms ease;
   cursor: pointer;
 }
 
-header{
+header {
   background-color: var(--color-background);
 }
 
-main{
+main {
   margin: 0 auto;
   padding: 0 1rem;
   max-width: 50rem;
 }
-p{
+p {
   margin-bottom: 1.5rem;
 }
-article, aside{
+article,
+aside {
   margin-bottom: 6rem;
 }
-footer{
+footer {
   padding: 5rem;
   background-color: var(--color-background);
 }
